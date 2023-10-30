@@ -2,6 +2,12 @@
 tela de cadastro  com cep funcionando utilizado para cadastrar eu fiz umas pesquisas de cadastro em sites de compra cacau show, mercado livre e havan... e dai eu lenbrei de uma outra tarefa com cep que tivemos feito na outra aula passada. Eu copiei o codigo adapitei e adicionei nome, sobrenome , data de nascimento entc..
 personalizei do meu jeito e foi ass que fico.
 
+## antes:
+
+
+
+## depois:
+
 
  ## link de navegação utilizados:
 
@@ -17,5 +23,5 @@ personalizei do meu jeito e foi ass que fico.
  * brootstrap
 
  ## autores:
- [lara]
- [leo]
+ [lara](https://github.com/laraassuncao18)
+ [leo](https://github.com/LeonardoRochaMarista)
