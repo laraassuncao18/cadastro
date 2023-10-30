@@ -1,23 +1,75 @@
-verificar(){
-    let email = document.getElementById('email').value;
-    let senha = document.getElementById('senha').value;
-    let Date = document.getElementById('nascimento').value;
-    let nome = document.getElementById('nome').value;
-    let tel = document.getElementById('Telefone').value;
-    let cpf = document.getElementById('cpf').value;
-    let cep = document.getElementById('cep').value;
-    let bairro = document.getElementById('bairro').value;
-    let rua = document.getElementById('rua').value;
-    let number = document.getElementById('numero').value;
-    let complemento = document.getElementById('complemento').value;
-    let Cidade = document.getElementById('Cidade');
-    let Estado = document.getElementById('Estado');
+'use restrict';
 
-    //
+//Modo restrito
 
-if(!email || !senha || !Date || !nome || !tel || !cpf || !cep || !bairro || !rua || !number || !complemento || !Cidade || !Estado){
-    alert("Campo de preenchimento obrigatório");
+ 
+
+//Limpar formulário
+
+const LimparFormulario = (endereco) =>{
+
+    document.getElementById('rua').value = '';
+
+    document.getElementById('bairro').value = '';
+
+    document.getElementById('cidade').value = '';
+
+    document.getElementById('estado').value = '';
+
 }
-else 
-alert ("Campos preenchidos com sucesso!");
+
+//Verifica se CEP é válido
+
+const eNumero = (numero) => /^[0-9]+$/.test(numero);
+
+const cepValido = (cep) => cep.length == 8 && eNumero(cep);
+
+//preenche campos do formulario
+
+const preencheFormulario = (endereco) =>{
+
+    document.getElementById('rua').value = endereco.logradouro;
+
+    document.getElementById('bairro').value = endereco.bairro;
+
+    document.getElementById('cidade').value = endereco.localidade;
+
+    document.getElementById('estado').value = endereco.uf;
+
 }
+
+/*função para consumo de API utilizando a função do tipo assimcrona*/
+
+const pesquisarcep = async() =>{
+
+    LimparFormulario();
+
+    const url = `http://viacep.com.br/ws/${cep.value}/json/`;
+
+    if(cepValido(cep.value)){
+
+        const dados = await fetch(url);
+
+        const addres = await dados.json();
+
+        if(addres.hasOwnProperty('erro')){
+
+            alert('cep não encontrado');
+
+    }else{
+
+        preencheFormulario(addres);
+
+    }
+
+}else{
+
+    alert('cep incorreto');
+
+    }
+
+}
+
+// Adiciona um evento DOM, no input CEP
+
+document.getElementById('cep').addEventListener('focusout', pesquisarcep);
