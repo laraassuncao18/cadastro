@@ -11,9 +11,9 @@ personalizei do meu jeito e foi ass que fico.
 
  ## link de navegação utilizados:
 
- [cacau show](https://www.cacaushow.com.br/login)
- [mercado livre](https://www.mercadolivre.com/jms/mlb/lgz/msl/login/H4sIAAAAAAAEAzWNwQ6DMAxD_6VnNKSdph4nbR-xSxUgQLSUVm0YDMS_L53E0fazvRsOA01OvhGNNbhGppbEVCYySB-Sd9Rp4FmtTIKnbAoCCTwKpmzsXoYG7O6opTLVA2dUCGYZXc9hUe__pR5lh6v2JmC3YPMhLOnZGIKKUSTauvbIdGGor9v2uj0f5qgUy-IkQfs2VtKMxw_yaHylxAAAAA/user)
- [havan](https://www.havan.com.br/)
+ * [cacau show](https://www.cacaushow.com.br/login)
+ * [mercado livre](https://www.mercadolivre.com/jms/mlb/lgz/msl/login/H4sIAAAAAAAEAzWNwQ6DMAxD_6VnNKSdph4nbR-xSxUgQLSUVm0YDMS_L53E0fazvRsOA01OvhGNNbhGppbEVCYySB-Sd9Rp4FmtTIKnbAoCCTwKpmzsXoYG7O6opTLVA2dUCGYZXc9hUe__pR5lh6v2JmC3YPMhLOnZGIKKUSTauvbIdGGor9v2uj0f5qgUy-IkQfs2VtKMxw_yaHylxAAAAA/user)
+ * [havan](https://www.havan.com.br/)
 
  ## fontes utilizadas:
  * vs code
@@ -23,5 +23,6 @@ personalizei do meu jeito e foi ass que fico.
  * brootstrap
 
  ## autores:
- [lara](https://github.com/laraassuncao18)
- [leo](https://github.com/LeonardoRochaMarista)
+
+ * [lara](https://github.com/laraassuncao18)
+ * [leo](https://github.com/LeonardoRochaMarista)
