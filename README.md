@@ -3,7 +3,7 @@ tela de cadastro  com cep funcionando utilizado para cadastrar eu fiz umas pesqu
 personalizei do meu jeito e foi ass que fico.
 
 ## antes:
-![gif](gif/Gravando%202023-10-20%20095814.gif)
+![gif](gif/Captura%20de%20tela%202023-11-01%20124205.png)
 
 
 ## depois:
